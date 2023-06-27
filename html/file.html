@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link   rel="stylesheet"  href="stylle.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="logo">
+                <img src="images/logo.svg" alt=""/>
+            </div>
+            <div class="image"></div>
+            <div class="text"> </div>
+        </div>
+  </div>
+  <form id="form">
+    <div class="social">
+        <h1><div class="title">Get Started</div></h1>
+        <div class="question">
+            <h2><span> Sign In</span></h2>
+        </div>
+        <div class="button">
+            
+        </div>
+        <div class="or">Or</div>
+    </div>
+    <div>
+        <label for="username">Username</label><br>
+        <i class="fas fa-user"></i>
+        <input type="text" name="username" id="username" placeholder="Your Name"/>
+        <i class="fas fa-exclamation-circle failure-icon"></i>
+        <i class="far fa-check-circle success-icon"></i>
+        <div class="error"></div>
+    </div>
+    <div>
+        <label for="email"> Email  </label><br>
+        <i class="far fa-envelope"></i>
+        <input type="email" name="email" id="email" placeholder="name@gmail.com"/>
+        <i class="fas fa-exclamation-circle failure-icon"></i>
+        <i class="far fa-check-circle success-icon"></i>
+        <div class="error"></div>
+    </div>
+    <div>
+        <label for="password">Password</label><br>
+        <i class="fas fa-lock"></i>
+        <input type="password" name="password" id="password" placeholder="Password here" />
+        <i class="fas fa-exclamation-circle failure-icon"></i>
+        <i class="far fa-check-circle success-icon"></i>
+        <div class="error"></div><br>
+    </div>
+    <button type="Submit" id="submit">Submit</button>
+  </form>
+</div>
+</body>
+</html>
